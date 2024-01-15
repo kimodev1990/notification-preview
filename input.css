@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h3 {
+    font-size: 0.8rem;
+  }
+  h4 {
+    font-size: 0.7rem;
+  }
+}
+
+.high-light {
+  @apply font-bold hover:cursor-pointer hover:text-blue-800 duration-300;
+}
